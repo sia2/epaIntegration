@@ -1,0 +1,10 @@
+SUBJECT>>[{$sitename}] : Confirmation d'adresse électronique<<
+Bonjour {$loginName},
+
+Cliquez sur le lien ci dessous (ou faites un copier/coller dans votre navigateur) pour ouvrir votre accès à nos forums :
+
+{$main_url}/{$indexphp}action=confirmpasswd&confirmCode={$confirmCode}
+
+À bientôt !
+
+L'Administrateur du Forum {$main_url}

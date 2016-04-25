@@ -1,0 +1,20 @@
+SUBJECT>>[{$sitename}] : Enregistrement d'un nouvel utilisateur<<
+Bonjour,
+
+Un nouvel utilisateur s'est enregistré sur vos forums "{$sitename}":
+
+ID: {$insres}
+
+Login: {$username}
+Email: {$user_email}
+ICQ: {$user_icq}
+Site Web: {$user_website}
+Profession: {$user_occ}
+Région: {$user_from}
+Intérêts: {$user_interest}
+
+À bientôt !
+
+L'Administrateur du Forum {$main_url}
+
+Remarque : pour désactiver ces messages donner au paramètre "emailadmin" dans le fichier "setup_options.php" la valeur "0".

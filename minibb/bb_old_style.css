@@ -1,0 +1,609 @@
+/* Body class */
+
+.gbody{
+font-family: Verdana,Arial,Helvetica,sans-serif;
+background: #FCFDFF;
+margin-top: 5px;
+margin-bottom: 10px;
+margin-right: 10px;
+margin-left: 10px;
+}
+
+/* General smart tables class */
+
+table.forums, table.forumsmb {
+font-family: Verdana,Arial,Helvetica,sans-serif;
+width: 765px;
+/* border: 1px #CCCCCC solid; */
+display: table;
+color: #000000;
+border-collapse: collapse;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+} 
+
+table.forumsmb{
+margin-bottom:12px;
+}
+
+/* Simple transparent table without borders and background color (menu navigation, general tables) */
+
+.tbTransparent, .tbTransparentmb{
+border-collapse:collapse;
+font-family: Verdana,Arial,Helvetica,sans-serif;
+width: 765px;
+background: transparent;
+font-size: 11px;
+line-height: 15px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+vertical-align: top;
+}
+
+.tbTransparentmb{
+margin-bottom:12px;
+}
+
+.tbTransparentCell{
+text-align: left;
+}
+
+img {
+border: 0px;
+}
+
+td{
+text-align: left;
+}
+
+/* Small analog text, used usually with SPAN */
+
+.txtSm{
+font-family: Verdana,Arial,Helvetica,sans-serif;
+text-decoration: none;	
+font-size: 10px;
+color:#656565;
+}
+
+/* Normal analog text, used usually with SPAN */
+
+.txtNr{
+font-family: Verdana,Arial,Helvetica,sans-serif;
+text-decoration: none;	
+font-size: 11px;
+}
+
+/* Views color */
+
+.views{
+color:#9A9A9A;
+}
+
+/* Supscript class */
+
+.navCell{
+font-family: Verdana,Arial,Helvetica,sans-serif;
+font-size: 10px;
+border:1px #DBDBDB solid;
+background-color: #F1F4F5;
+padding-left:2px;
+padding-right:2px;
+padding-top:1px;
+padding-bottom:1px;
+margin-top:1px;
+color:#ABABAB;
+}
+
+/* Warning text */
+
+.warning{
+color: #225873;
+font-family: Verdana,Arial,Helvetica,sans-serif;
+font-size: 11px;
+font-weight: bold;
+}
+
+/* Class for select boxes */
+
+.selectTxt {
+font-family: Verdana,Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight:normal;
+background-color: #FFFFFF;
+}
+
+/* List style - user's info */
+
+.limbb, UL{
+list-style: circle;
+font-size: 11px;
+margin-left: 10pt;
+padding-left: 10pt;
+margin: 1pt;
+margin-bottom:5pt;
+line-height: 15pt;
+}
+
+/* Input areas - boxes, textareas... */
+
+.inputButton {
+font-family: Verdana,Arial,Helvetica,sans-serif;
+background: #E0EEF2; 
+border-top: #D6D6D6 1px solid;
+border-right: #A7A7A7 1px solid;
+border-left: #D6D6D6 1px solid;
+border-bottom: #A7A7A7 1px solid;
+font-size: 8pt;
+font-weight:normal;
+color: #000000;
+padding:2px;
+padding-left:5px;
+padding-right:5px;
+-moz-border-radius: 4px;
+-khtml-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+-moz-box-sizing: content-box;
+-webkit-box-sizing: content-box;
+-khtml-box-sizing: content-box;
+box-sizing: content-box;
+/* height: 19px; */
+}
+
+.textForm {
+font-family: Verdana,Arial,Helvetica,sans-serif;
+background: #FFFFFF;
+border: #A0BCD5 1px solid;
+font-size: 8pt;
+padding:2px;
+-moz-border-radius: 2px;
+-khtml-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+-moz-box-sizing: content-box;
+-webkit-box-sizing: content-box;
+-khtml-box-sizing: content-box;
+box-sizing: content-box;
+}
+
+/* Caption 1 (the one for displaying sub-headers like "topics, posted" etc) */
+td.caption1 {
+border: 1px #DFEDEE solid;
+font-size: 11px;
+line-height: 15px;
+padding:3pt;
+text-align: left;
+}
+
+/* Caption 2 color and properties (this one displaying main menu,  New Topic text bg, New Message text bg) */
+
+td.caption2 {
+background-color: #FDFEFF;
+border: 2px #D2DEE8 dotted;
+padding: 4px;
+height: 20px;
+font-size: 11px;
+font-weight: bold;
+line-height: 15px;
+font-family: verdana, arial, sans-serif;
+color: #000;
+}
+
+/* Caption 3 (used for Last Discussions, topic titles, Forums selection) */
+
+td.caption3 {
+padding: 3px;
+font-size: 11px;
+font-weight: bold;
+vertical-align: middle;
+width: 100%;
+color:#4E687F;
+}
+
+/* Caption 4 (the one for displaying not separate headers like Forum, Topic, Poster etc. on 1st page, Buttons menu, left info cell) */
+
+td.caption4, td.tbClCp {
+background-color: #F2F7FF;
+padding:3px;
+padding-left:25px;
+font-size: 11px;
+font-weight:bold;
+color: #81848B;
+line-height: 15px;
+vertical-align: top;
+border: 1px #DFEDEE solid;
+}
+
+.groupTitle {
+font-weight:bold;
+}
+
+/* Caption 5 (used for user input like password/login and registration etc) */
+
+td.caption5 {
+background-color: #F8F8F9;
+border:#EEEEEE 1px solid;
+padding: 4px;
+height: 20px;
+font-size: 11px;
+line-height: 15px;
+vertical-align: top;
+}
+
+/* Font for displaying username in each thread */
+
+.username{
+text-decoration: none;
+font-size: 11px;
+font-weight: bold;
+}
+
+/* Topics/forums/threads content cell color #1 */
+
+.tbCel1{
+background: #F3F8FF;
+}
+
+/* Topics/forums/threads content cell color #2 */
+
+.tbCel2{
+background: #F7FBFF;
+}
+
+.formStyle{
+margin: 0px;
+}
+
+A:link, A:active, A:visited {
+color: #006699;
+text-decoration: none;
+}
+
+A:hover {
+color: #0083C5;
+text-decoration: underline;
+}
+
+
+ol.mbb, ul.mbb, blockquote.mbb{
+margin-bottom: 0px;
+}
+
+/* Related to 2.2 */
+
+.popUp{
+padding: 0pt;
+}
+
+/* Common: $l_sepr */
+
+.sepr{
+color:#006DA4;
+}
+
+/* The same color as for regular links */
+
+.txtSm A:link, .txtSm A:active, .txtSm A:visited{
+color: #006699;
+}
+
+td.icon{
+padding: 5px;
+text-align:center;
+vertical-align: middle;
+width: 20px;
+height:20px;
+}
+
+.noWrap{
+white-space:nowrap;
+}
+
+td.caption4{
+text-align: center;
+}
+
+td.tbClCp{
+text-align: right;
+}
+
+td.txtC{
+text-align: center;
+}
+
+td.txtL{
+text-align: left;
+}
+
+td.txtR{
+text-align: right;
+}
+
+span.latest,span.replies,span.author{
+padding-left: 2px;
+padding-right: 2px;
+}
+
+span.replies{
+background-color: transparent;
+}
+
+span.author{
+background-color: transparent;
+}
+
+span.latest{
+background-color: transparent;
+}
+
+.headingTitle{
+font-weight:bold;
+font-size:14px;
+color: #003463;
+}
+
+/* Group title link */
+.groupTitle A:link, .groupTitle A:active, .groupTitle A:visited{
+color:#006699;
+text-decoration: underline;
+}
+
+/* The same color as tbCel1 */
+tr.tbCel1 td.replies{
+background-color: #EEEEEE;
+}
+
+tr.tbCel1 td.author{
+background-color: #EEEEEE;
+}
+
+tr.tbCel1 td.latest{
+background-color: #EEEEEE;
+}
+
+/* The same color as tbCel2 */
+tr.tbCel2 td.replies{
+background-color: #F8F8F8;
+}
+
+tr.tbCel2 td.author{
+background-color: #F8F8F8;
+}
+
+tr.tbCel2 td.latest{
+background-color: #F8F8F8;
+}
+
+
+td.author, td.latest{
+font-size:11px;
+}
+
+.username A:hover, .groupTitle A:hover{
+background: #0083C5;
+color: #F0F0E3;
+text-decoration: none;
+}
+
+.postedText{
+font-family: Verdana, Georgia, 'Trebuchet MS', Times;
+font-size: 8pt;
+line-height: 13pt;
+padding-top:10pt;
+padding-bottom:17pt;
+}
+
+.postedTextCell{
+border-right:1px solid #EDF1F6;
+}
+
+.postedText A:link, .postedText A:active, .postedText A:visited{
+color: #006699;
+text-decoration: underline;
+font-weight:bold;
+}
+
+.postedText A:hover{
+text-decoration: none;
+color: #0083C5;
+font-weight:bold;
+}
+
+/* The same BG color as .author; border-bottom: the same as .caption1 */
+td.pauthor{
+padding:2px;
+padding-top:9pt;
+vertical-align:top;
+}
+
+.postingForm, .topicTitle{
+width:99%;
+}
+
+.postingForm{
+height:150px;
+}
+
+.quote{
+font-family: tahoma, verdana, arial, sans-serif;
+background-color: transparent;
+border-left: 7px solid #FFF;
+color: #838383;
+font-size: 11px;
+margin-left: 5pt;
+padding: 3px;
+width: 90%;
+}
+
+.quoting{
+font-weight: bold;
+border-top: 0px;
+color: #696969;
+margin-left: 3pt;
+width: 90%;
+}
+
+.hl{
+font-family: tahoma, verdana, arial, sans-serif;
+font-size: 11px;
+background-color: #F4F4F4;
+border-left: 7px solid #BFBFBF;
+color: #00344E;
+margin-left: 5pt;
+padding: 4px;
+width: 70%;
+}
+
+#newreply:hover, #newtopic:hover{
+text-decoration:none;
+background-color:transparent;
+color:#000;
+}
+
+/* New tags below */
+
+tr.statsCaption TD{
+font-size: 11px;
+padding: 5px;
+}
+
+tr#statsCaptionHead TD{
+background-color: #EEEFFF;
+color: #333;
+border: 1px #F6F7FF solid;
+border-bottom:1px solid #DADBFF;
+}
+
+.tbStBar{
+border-right: #DADBFF 1px solid;
+border-bottom: #DADBFF 1px solid;
+margin: 1px;
+padding: 1px;
+background: #EEEFFF;
+font-size: 11px;
+}
+
+.tbStBar, table.statsTable td.caption5 td{
+padding: 1px;
+padding-left: 5px;
+}
+
+.tbStBar A{
+color: #006699;
+}
+
+tr.tbStRow TD{
+text-align:left;
+font-size: 11px;
+}
+
+.warning, .warningLnk{
+line-height:13pt;
+}
+
+div.capMenu A:hover{
+color: #0083C5;
+text-decoration: underline;
+}
+
+/* automatic script tabbing solution */
+div.jscript{
+font-family: Verdana,Arial,Helvetica,sans-serif;
+border: 1px #FFFFFF solid;
+color: #003366;
+background: #F1F3F6;
+padding: 4px;
+text-align: left;
+}
+/*-- automatic script tabbing solution */
+
+/* preformatted text solution */
+div.preDiv{
+font-family: Verdana,Arial,Helvetica,sans-serif;
+border: 1px #FFFFFF solid;
+color: #000000;
+background: #F1F3F6;
+padding: 4px;
+text-align: left;
+}
+/*-- preformatted text solution */
+
+.captionTop{
+font-family:verdana,arial,sans-serif;
+/* text-transform:uppercase; */
+padding:5px;
+font-size: 8pt;
+color:#959595;
+vertical-align:top;
+}
+
+/* Messages: spoiler block */
+
+.spoiler{
+font-family: tahoma, verdana, arial, sans-serif;
+background-color: #000;
+border-left: 3px solid #FF0000;
+color: #000;
+font-size: 9pt;
+margin-left: 5pt;
+padding: 3px;
+width: 90%;
+}
+
+.spoilerWarning{
+font-weight: bold;
+border-top: 0px;
+color: #FF0000;
+margin-left: 3pt;
+width: 90%;
+}
+
+.tcell{
+padding-top:10pt;
+padding-left:4pt;
+padding-right:3pt;
+padding-bottom:1pt;
+line-height:14pt;
+}
+
+.tcelllast{
+border-bottom:1px #D0DDE8 solid;
+padding-top:5pt;
+padding-bottom:5pt;
+}
+
+.fcell{
+padding-top:4pt;
+padding-left:4pt;
+padding-right:3pt;
+padding-bottom:1pt;
+}
+
+.replies{
+font-weight:bold;
+color:#5E543E;
+}
+
+abbr.accr{
+border-bottom-width: 0;
+}
+
+.vmiddle{
+vertical-align:middle;
+}
+
+.subjectPad{
+padding-top:3pt;
+padding-bottom:3pt;
+}
+
+.pformBottom{
+padding-bottom:10pt;
+}
+
+.fPopUp{
+margin:0px;
+overflow:hidden;
+}

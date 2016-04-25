@@ -1,0 +1,39 @@
+<table class="table-responsive"><tr><td>{$user_logging}</td></tr></table>
+
+<table class="table-responsive">
+<tr>
+
+<td style="width:70%;vertical-align:top;padding-right:15pt;">
+
+<table class="table-responsive" style="width:100%">
+<tr>
+<td class="tbTransparent txtL" style="width:50%"><h1 class="headingTitle">{$l_lastDiscussions}</h1></td><td class="txtR" style="width:50%"><span class="txtSm">{$l_sortedBy}&nbsp;{$sortedByT}<br /><a href="{$main_url}/{$indexphp}sortBy={$sortByNew}" rel="nofollow">{$l_sortBy}&nbsp;{$sortByT}</a></span></td>
+</tr>
+</table>
+
+{$specialThreads}
+{$list_topics}
+
+<!--pageNav-->
+{$mbpn}
+<table class"table-responsive" style="width:100%">
+<tr>
+<td class="tbTransparentCell txtL"><span class="txtSm"><b>{$pageNavExtra}&nbsp;</b></span></td>
+</tr>
+</table>
+<!--/pageNav-->
+
+</td>
+
+<td style="width:30%;vertical-align:top;padding-top:13pt">
+
+<table class="table-responsive">
+{$list_forums}
+</table>
+
+<br />
+<table class="table-responsive" style="width:100%"><tr><td class="txtR">{$searchBox}</td></tr></table>
+
+</td>
+
+</tr></table>

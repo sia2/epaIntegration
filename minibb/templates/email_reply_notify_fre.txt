@@ -1,0 +1,22 @@
+SUBJECT>>[{$sitename}] : Nouveau message<<
+Bonjour,
+
+Vous recevez ce message car vous êtes abonné au sujet "{$topicTitle_em}" dans nos forums, et {$user_usr_em} a posté ou répondu dans ce sujet.
+
+Le Message commence ainsi:
+--
+
+{$postTextSmall}
+
+--
+
+Le texte complet sur {$sitename}:
+
+[FOLLOW_CODE]
+
+À bientôt !
+
+L'Administrateur du Forum {$main_url}
+
+Pour vous désabonner, suivez le lien suivant: 
+[UNSUBSCRIBE_BY_CODE]

@@ -1,0 +1,15 @@
+SUBJECT>>[{$sitename}] : Vos identifiants de connexion<<
+Bonjour,
+
+Merci de vous être enregistré sur notre babillard !
+
+
+Afin de vous faciliter l`accès, voici un rappel de vos options de connexion.
+Votre identifiants : {$username}
+Votre mot de passe : {$passwd}
+
+En cas d`oubli du mot de passe, cliquez sur lien "Mot de Passe" près du champ "Identifiant" sur la page principale du forum.
+
+À bientôt !
+
+L'Administrateur du Forum {$main_url}

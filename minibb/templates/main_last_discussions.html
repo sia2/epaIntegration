@@ -1,0 +1,29 @@
+<table class="table table-hover">
+<tr>
+<td class="tbTransparent txtL vmiddle" style="width:50%"><h1 class="headingTitle" style="margin:0px">{$l_lastDiscussions}</h1></td>
+<td class="tbTransparent txtR" style="width:50%;vertical-align:middle"><span class="txtSm" style="white-space:nowrap;">{$l_sortedBy}&nbsp;{$sortedByT}.&nbsp;<a href="{$main_url}/{$indexphp}sortBy={$sortByNew}" rel="nofollow">{$l_sortBy}&nbsp;{$sortByT}</a></span></td>
+</tr>
+</table>
+
+<table class="table table-hover">
+<tr>
+<td></td>
+<td>{$l_topic}</td>
+<td>{$l_replies}</td>
+<td>{$l_views}</td>
+<td>{$l_author}</td>
+<td>{$l_lastAuthor}</td>
+</tr>
+
+{$specialThreads}
+{$list_topics}
+</table>
+
+<!--pageNav-->
+<table class="table table-hover">
+<tr>
+<td class="tbTransparentCell txtR"><span class="txtSm"><b>{$pageNavExtra}&nbsp;</b></span></td>
+</tr>
+</table>
+{$mbpn}
+<!--/pageNav-->

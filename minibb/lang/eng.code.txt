@@ -1,0 +1,3 @@
+/* Avatars language */
+$l_usrInfo[12]='Avatar';
+
