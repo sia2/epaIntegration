@@ -32,6 +32,8 @@
 		</script>
 </head>
 <body>
+
+	<!-- MENU SECTION BEGIN-->
 	<?php include("entete.php"); ?>
     <!-- MENU SECTION END-->
 	
@@ -51,14 +53,14 @@
 				<div class="item active">
 					<img src="assets/img/05.JPG" alt="...">
 					<div class="carousel-caption">
-						FIRSTTTTTT
+						FIRST
 					</div>
 				</div>
 				
 				<div class="item">
 					<img src="assets/img/02.JPG" alt="...">
 					<div class="carousel-caption">
-					SECONDDDDD
+					SECOND
 					</div>
 				</div>
 				...
