@@ -33,12 +33,28 @@
 </head>
 
 <body>
-	
-	<?php include("entete.php"); ?>
-	
+
+	<?php include("entete_con.php"); ?>
 	
     <div class="content-wrapper">	
+		
+		<div class="col-md-6 menu_gauche">
+			<p>
+				Téléphone :
+			</p>
+			<p>
+				(0033) 01 00 00 00 00 
+			</p>
+		</div>
+		
+		<div class=" col-md-6 contenu">
 
+		<fieldset>
+			<legend class="titres">10, Avenue Paul Appel 75014 Paris – France</legend>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.9175022497475!2d2.3258902156730703!3d48.8216354792838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671af2c2a3c3b%3A0x8493a47e268d0ca6!2s10+Avenue+Paul+Appell%2C+75014+Paris!5e0!3m2!1sfr!2sfr!4v1461624871809" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</fieldset>
+		
+		</div>
 
 
 			<!-- Le code ici -->	
@@ -50,7 +66,7 @@
 	
     <!-- CONTENT-WRAPPER SECTION END-->
 	
-<?php include("footer.php"); ?>
+ <?php include("footer.php"); ?>
     <!-- FOOTER SECTION END-->
 	
     <!-- JAVASCRIPT AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
