@@ -48,6 +48,7 @@ if(!file_exists($uploadfile))
     $resultat = $co->execQuery($req);  
     
 	echo "Avant resultat";
+	
     if($resultat)
     {
 		echo "Apres resultat";
