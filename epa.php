@@ -39,10 +39,29 @@
     <div class="content-wrapper">	
 		
 		<div class="col-md-6 menu_gauche">
+		<!--
 			<li><a href="#">Mot de la directrice</a></li>
 			<li><a href="#">Membres</a></li>
 			<li><a href="#">Projets</a></li>
 			<li><a href="#">Partenaires</a></li>
+			-->
+			
+			 
+
+    <ul class="list-group">
+
+      <li class="list-group-item"><a href="#">Mot de la directrice</a></li>
+
+      <li class="list-group-item"><a href="#">Membres</a></li>
+
+      <li class="list-group-item"><a href="#">Projets</a></li>
+
+      <li class="list-group-item"><a href="#">Partenaires</a></li>
+
+    </ul>
+
+ 
+			
 			
 		</div>
 		

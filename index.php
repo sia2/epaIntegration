@@ -51,19 +51,19 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img src="assets/img/13.JPG" alt="...">
+					<img src="assets/img/004.JPG" alt="...">
 					<div class="carousel-caption">
 						FIRST
 					</div>
 				</div>
 				
 				<div class="item">
-					<img src="assets/img/13.JPG" alt="...">
+					<img src="assets/img/01.JPG" alt="...">
 					<div class="carousel-caption">
 					SECOND
 					</div>
 				</div>
-				...
+				22222222222222222
 			</div>
 
 			<!-- Controls -->
@@ -84,7 +84,7 @@
 
         <input type="search" class="input-sm form-control" placeholder="Recherche">
 
-        <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+        <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher un document</button>
 
       </div>
 
