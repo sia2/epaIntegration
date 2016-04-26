@@ -4,7 +4,7 @@
                 <div class="col-md-12">
                     <strong>Email: </strong>epa@epa.fr
                     &nbsp;&nbsp;
-                    <strong>Support: </strong>(0033) 01 00 00 00 00
+                    <strong>Support: </strong>(0033) 01 00 00 00 00 
                 </div>
 
             </div>
@@ -30,19 +30,48 @@
 	</div>
 	
 	<div id="bouton-droite" class="col-md-6">
-	<div  id="recherche" >
+		<div  id="recherche" >
 					<div class="row" id="client" >
-					<div class="col-s-3 pull-right" >
-				   		<div class="btn-group">
-	        				<a class="btn btn-primary" href="#">Se connecter</a>
-       						<a class="btn btn-primary" href="#">S'inscrire</a>
-   						</div>
-   					</div>
+					
+					
+					 <div class="user-settings-wrapper">
+                    <ul class="nav">
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                                <span class="glyphicon glyphicon-user" style="font-size: 25px;"></span>
+                            </a>
+                            <div class="dropdown-menu dropdown-settings">
+                                <div class="media">
+                                    <a class="media-left" href="#">
+                                        <img src="assets/img/64-64.jpg" alt="" class="img-rounded" />
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Diarra Abdoulaye </h4>
+                                        <h5>Chef de projet</h5>
+
+                                    </div>
+                                </div>
+                                <hr />
+                                <h5><strong>Profession : </strong></h5>
+                                Etudiant
+                                <hr />
+                                <a href="login.html" class="btn btn-danger btn-sm">Logout</a>
+
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+			
+					
+					
    					</div>
 					<div class="row" >
-			
+	
 		         	</div>
-		         </div>
+		</div>
 	</div>
 	
 
